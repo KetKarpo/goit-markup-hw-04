@@ -147,8 +147,8 @@ img{
 }
 
 .advantage-page{ 
-    padding-top: 192px;;
-    padding-bottom: 192px;
+    padding-top: 188px;;
+    padding-bottom: 188px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -331,7 +331,7 @@ img{
 }
 
 .team-name{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
