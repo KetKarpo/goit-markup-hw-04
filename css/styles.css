@@ -31,6 +31,8 @@ img{
 
 .list{
     list-style: none;
+    margin: 0%;
+    padding:0 ;
 }
 .link{
    font-family: inherit;
@@ -375,13 +377,8 @@ img{
     
 }
 
-.soc-link{
+.team-icons{
     margin-top: 8px;
-
-}
-.soc-link:hover .soc-link-inst,
-.soc-link:focus .soc-link-inst{
-    fill: --;
 }
 
 .soc-link-inst {
@@ -395,13 +392,16 @@ img{
 }
 
 
+.customers-block{
+    padding-top: 120px;
+    padding-bottom: 120px;
 
+}
 .customers-titel{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    margin-top: 130px;
     color: var(--color-main);
     
 } 
@@ -410,8 +410,9 @@ img{
     flex-direction: row;
     gap: 24px;
     padding: 0;
+    margin: 0;
     margin-top: 72px;
-    margin-bottom: 120px;
+    
     
 
 }
@@ -422,20 +423,15 @@ img{
     border-radius: 4px;
     display: flex;
     align-items: center;
-    fill: #8E8F99;
-    
-        
-    
-}
-.custumers-icon-client:hover .custumers-icon
-.custumers-icon-client:focus .custumers-icon {
-    fill: #404BBF;
-}
-.custumers-icon{
-    fill: #4D5AE5 ;
+    fill:#8E8F99 ;
 
+    
 }
-
+.custumers-icon-client:hover,
+.custumers-icon-client:focus{
+    fill:var(--color-btm);
+}
+ 
 
 
 
@@ -454,8 +450,8 @@ img{
     
 }
 .footer-block{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
@@ -471,6 +467,7 @@ img{
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+    
     }
 
 
@@ -491,6 +488,7 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-logo);
+    margin-bottom: 16px;
    
  
 }
@@ -514,9 +512,12 @@ img{
     align-items: center;
     margin-bottom: 16px;
     
-
-
 } 
+
+.social-media-icons:hover,
+.social-media-icons:focus{
+    background-color: #31D0AA;
+}
 .social-media-item{
     display: flex;
     gap: 16px;
